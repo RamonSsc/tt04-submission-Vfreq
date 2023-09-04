@@ -1,5 +1,12 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/wokwi_test/badge.svg)
 
+# Frequency Divider with Adjustable Counter
+
+![image](https://github.com/RamonSsc/tt04-submission-Vfreq/assets/93963854/b3a622ab-2138-4e18-8123-fba5ba732fdf)
+
+With a counter module M, M input of the circuit, pulses are generated thanks to an internal comparator of the counter when reaching the maximum value. Then this signal is used as a clock of a second counter and each output bit (bus 7) is a signal with the frequency divided by 2.
+
+
 # What is Tiny Tapeout?
 
 TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
