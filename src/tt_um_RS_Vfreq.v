@@ -11,6 +11,11 @@ module tt_um_RS_Vfreq(
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to 
     );
+
+
+
+
+    
     
     wire reset = !rst_n; //use a positive logic reset
     reg [7:0] counter = 0;
